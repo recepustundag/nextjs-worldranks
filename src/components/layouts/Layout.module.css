@@ -1,0 +1,30 @@
+.container {
+  padding: 20px;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.changerTheme{
+  padding: 0 20px;
+  margin-top: 5px;
+  color: var(--color-green);
+  font-size: 15px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.changerTheme:focus{
+  outline: none;
+}

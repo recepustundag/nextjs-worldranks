@@ -1,0 +1,9 @@
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counts {
+  color: var(--color-gray);
+}
